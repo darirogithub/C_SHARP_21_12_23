@@ -2,7 +2,7 @@
 // позводить в степень, равную последней цифре. 
 
 Console.WriteLine("Введите трёхзначное число");
-int num = int.Parse(Console.ReadLine());
+int num = int.Parse(Console.ReadLine()!);
 if (num >= 100 && num < 1000)
 {
     int a1 = num % 100 / 10;
