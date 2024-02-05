@@ -15,4 +15,4 @@ return allNums;
 }
 
 Console.WriteLine(MaxNum(new Random().Next(1, 100000)));
-// Задача не решена, не помню, как работать с массивами. 
+// Задача списана 
